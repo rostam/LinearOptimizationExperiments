@@ -6,5 +6,5 @@ CACHE STRING "Vcpkg toolchain file")
 
 find_package(ortools CONFIG REQUIRED)
 
-add_executable(my_project main.cpp)
+add_executable(my_project main4.cpp)
 target_link_libraries(my_project PRIVATE ortools::ortools)
